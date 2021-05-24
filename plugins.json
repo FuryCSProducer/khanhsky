@@ -1,0 +1,34 @@
+{
+	"plugin_name": "khanhsky",
+	"plugin_scope": "khanhsky",
+	"plugin_exec": "khanhsky.js",
+	"command_map": {
+		"khanhsky": {
+			"hargs": {
+				"vi_VN": "[cỡ chữ] <tin nhắn>",
+				"en_US": "[font size] <text>"
+			},
+			"hdesc": {
+				"vi_VN": "",
+				"en_US": ""
+			},
+			"fscope": "khanhsky",
+			"compatibly": 0
+		}
+	},
+	"author": "Kali (FuryCS Mod)",
+	"version": "1.5.1",
+	"node_depends": {
+		"fs": "*",
+		"path": "*",
+        "text2png": "*",
+		"canvas": "*",
+		"merge-images": "*",
+		"wait-on": "*"
+	},
+	"file_map": {
+        "fonts/arial.ttf": "arial",
+		"images/khanhsky.jpg": "khanhsky"
+    },
+	"complied_for": "0.3.0"
+}
