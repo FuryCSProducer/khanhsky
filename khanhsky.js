@@ -41,12 +41,12 @@ for (var n in nameMapping) {
 
 var khanhsky = async function (type, data) {
     if(!fs.existsSync(path.join(rootpath, 'images', 'khanhsky.jpg'))) {
-        var dt = await fetch('https://scontent.xx.fbcdn.net/v/t1.15752-0/p180x540/185862017_1065766717285997_1628029449228701754_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=aee45a&_nc_ohc=xIIqEISF2egAX86NT3l&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=e7d78188fc4aab7e6d78c4bb2d6a557e&oe=60D0116B')
+        var dt = await fetch('https://raw.githubusercontent.com/FuryCSProducer/khanhsky/main/images/khanhsky.jpg')
         var dtb = await dt.buffer()
         fs.writeFileSync(path.join(rootpath, 'images', 'khanhsky.jpg'), dtb)
     }
     if(!fs.existsSync(path.join(rootpath, 'fonts', 'arial.ttf'))) {
-        var ft = await fetch('https://raw.githubusercontent.com/CuSO4-c3c/mark-plugin-for-c3cbot-0.x/main/fonts/arial.ttf')
+        var ft = await fetch('https://raw.githubusercontent.com/FuryCSProducer/khanhsky/main/fonts/arial.ttf')
         var ftb = await ft.buffer()
         fs.writeFileSync(path.join(rootpath, 'fonts', 'arial.ttf'), ftb)
     }
@@ -57,20 +57,20 @@ var khanhsky = async function (type, data) {
             args.shift()
             args.shift()
         } else if(args.length === 2) {
-            var fontsize = '30'
+            var fontsize = '40'
             args.shift()
         } else {
-            var fontsize = '30'
+            var fontsize = '40'
             args.shift()
         }
     } else if(!isNaN(fontsize) === false) {
-        var fontsize = '30'
+        var fontsize = '40'
         args.shift()
     }
     if (args.length < 1) {
         return {
             handler: 'internal',
-            data: 'Vui lòng nhập theo cú pháp: /khanhsky [cỡ chữ](mặc định 30) <tin nhắn> (nếu nhiều dòng thì để mỗi dòng trong \'\')!'
+            data: 'Vui lòng nhập theo cú pháp: /khanhsky [cỡ chữ](mặc định 40) <tin nhắn> (nếu nhiều dòng thì để mỗi dòng trong \'\')!'
         }
     } else {
         if(args[0][0] === "'") {
@@ -119,7 +119,7 @@ var khanhsky = async function (type, data) {
                     },
                     {
                         src: path.join(rootpath, "temp", temp1),
-                        x: 260,
+                        x: 300,
                         y: 830
                     }
                 ], {
@@ -163,3 +163,4 @@ var khanhsky = async function (type, data) {
 
 module.exports = {
     khanhsky: khanhsky
+}
