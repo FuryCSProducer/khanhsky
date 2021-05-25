@@ -1,12 +1,13 @@
-# mark-plugin-for-c3cbot-0.x
-- cách dùng: prefix + mark [cỡ chữ](mặc định 40) <tin nhắn> (nếu nhiều dòng thì để mỗi dòng trong '')!
-- vd: 
-- /mark địt mẹ nẻo wibu 2k7
-- sẽ cho ra kết quả:
+khÁnH sKy
 
-<img src = 'https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/165065901_443164200293485_6944138249340251672_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=dbeb18&_nc_ohc=w27LD0C_M-oAX8IvJ_D&_nc_ht=scontent.fhan3-1.fna&oh=1f2e44c4cfbfad97274edc5af4461eb9&oe=608600C9'>
-- /mark 27 'tao là wibu' 'chúng mày sẽ phục tùng tao'
-- kết quả: 
+1. /khanhsky 'hi' 'tôi là khánh sky'
 
-<img src= 'https://scontent.xx.fbcdn.net/v/t1.15752-0/p403x403/166224309_431861134583270_1236210173340495900_n.png?_nc_cat=107&ccb=1-3&_nc_sid=f79d6e&_nc_ohc=YKESYJfngwUAX8klxjM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=90ef4fde377a07e8c0775aed16c75664&oe=608767AC'>
-- lưu ý: font chữ có thể sẽ hơi khác so với ảnh ở trên.
+https://scontent.xx.fbcdn.net/v/t1.15752-0/s280x280/190943546_319624486207773_8817842439651564351_n.png?_nc_cat=109&ccb=1-3&_nc_sid=58c789&_nc_ohc=eOaMbljQrjUAX91FNFT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=d89af0466df249acf4e2d63388353391&oe=60D19579
+2. /khanhsky djtmewibu
+
+https://scontent.xx.fbcdn.net/v/t1.15752-0/s280x280/191334058_313796297022449_5733272914923224470_n.png?_nc_cat=100&ccb=1-3&_nc_sid=58c789&_nc_ohc=zzwSbcW5ha4AX_-S1A1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=d1b4c7b4be1f01ca14988f2934cfc6e4&oe=60D3EA45
+3. /khanhsky 30 trời nắng quá
+
+https://scontent.xx.fbcdn.net/v/t1.15752-0/s280x280/191335348_307079060910225_7539389763873621011_n.png?_nc_cat=102&ccb=1-3&_nc_sid=58c789&_nc_ohc=9Bv15nc4FkwAX8WhLnM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=1e0a83d84a2000de48ce9849c9bcc7bd&oe=60D299DF
+
+Font mặc định là 40, như ví dụ 3 sẽ làm font về 30 :vvv
